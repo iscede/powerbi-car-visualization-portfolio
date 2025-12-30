@@ -1,44 +1,51 @@
 # Car Visualization (Power BI)
 
-Portfolio project built with **Power BI Desktop**.
+Dashboard interactivo en **Power BI Desktop** para analizar ventas de vehículos (a partir de registros) y explorar el desempeño por **marca/modelo**, tendencias y detalles con **tooltips**.
 
-This repository contains the report file and documentation so recruiters can quickly understand **what I built, why, and how**.
-
-## What you’ll find here
-
-- **Power BI report:** [`powerbi/Car_visualization.pbix`](powerbi/Car_visualization.pbix)
-- **Report structure (auto-generated):** [`docs/notes/report_pages_and_visuals.md`](docs/notes/report_pages_and_visuals.md)
-- **Screenshots:** `docs/images/`
-
-## Report pages
+## Preview
 ![Dashboard](docs/images/dashboard.png)
 ![Tooltip](docs/images/tooltip.png)
 ![Filters](docs/images/filters.png)
 
 
-## Key skills demonstrated
+## Habilidades clave
 
 - Data modeling (relationships, star-schema thinking)
 - DAX measures for KPIs
 - Dashboard design (visual hierarchy, tooltips, slicers)
 
-## How to open
+## Problema que resuelve
 
-1. Install **Power BI Desktop** (Windows).
-2. Download this repo as ZIP (or clone it).
-3. Open `powerbi/Car_visualization.pbix`.
+Este reporte responde preguntas típicas de negocio como:
+ - **¿Cuál es la marca más vendida?** *(cuando no existe una columna “cantidad”, se usa conteo de registros como proxy de ventas)*
+- ¿Cómo se distribuye el volumen por **marca** y **modelo**?
+- ¿Cómo se comportan las métricas a lo largo del tiempo? (tendencias)
+- ¿Qué detalles cambian cuando filtro por marca/modelo/segmento?
 
-If your PBIX uses a local file path as a data source, update it in:
-**Transform data (Power Query) → Data source settings → Change source…** then **Refresh**.
+## Report pages
+- **Página 1** — Dashboard principal (KPIs + tendencias + comparativos)
+- **TT Modelos** — Página de **tooltip** (detalle por modelo al pasar el cursor)
 
-## Project narrative (fill this in)
+## Key features
 
-- **Problem:** What question does this dashboard answer?
-- **Users:** Who is it for (sales, marketing, product)?
-- **Decisions enabled:** What actions can someone take with these insights?
-- **KPIs:** Top brand, total sold, average price, trend over time, etc.
+- **KPIs con DAX** (tarjetas) para métricas clave.
+- **Tendencias** (líneas) y **comparativos/rankings** (barras/columnas).
+- **Slicers / filtros** para segmentar el análisis.
+- **Tooltip dedicado** (TT Modelos) para ver detalle contextual sin saturar el canvas.
+- Enfoque en **diseño**: jerarquía visual, lectura rápida y consistencia de formato.
+
+## Tech stack & skills demonstrated
+
+- **Power BI Desktop**
+- **Power Query**: limpieza básica, tipado y preparación de datos
+- **Modelado**: relaciones y estructura pensada para análisis
+- **DAX**: medidas para KPIs, rankings y lógica contextual
+- **UX de reportes**: tooltips, segmentación y navegación por filtros
+
+## Dataset
+Kaggle URL: *https://www.kaggle.com/datasets/abubakrabubakr/car-price-prediction*
 
 ## Contact
 
-- LinkedIn: *(add link)*
-- Email: *(add email)*
+- LinkedIn: *https://ec.linkedin.com/in/andre-israel-cedeno*
+- Email: *andreisrael11@gmail.com*
