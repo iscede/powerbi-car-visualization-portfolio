@@ -1,0 +1,21 @@
+# --- Power BI ---
+# PBIX/PBIT are binary. You *can* version them in GitHub for a portfolio,
+# but diffs won't be readable. If you prefer to keep them out of Git:
+#   1) keep the rules below
+#   2) export a PDF + screenshots to /docs/images
+#   3) optionally commit a .pbit template (no data) instead of the .pbix
+
+*.pbix
+*.pbit
+*.pbip
+*.pbiq
+
+# Allow the portfolio PBIX in this repo:
+!powerbi/Car_visualization.pbix
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
