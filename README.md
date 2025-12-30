@@ -8,14 +8,13 @@ This repository contains the report file and documentation so recruiters can qui
 
 - **Power BI report:** [`powerbi/Car_visualization.pbix`](powerbi/Car_visualization.pbix)
 - **Report structure (auto-generated):** [`docs/notes/report_pages_and_visuals.md`](docs/notes/report_pages_and_visuals.md)
-- **Screenshots (add yours):** `docs/images/`
+- **Screenshots:** `docs/images/`
 
 ## Report pages
+![Dashboard](docs/images/dashboard.png)
+![Tooltip](docs/images/tooltip.png)
+![Filters](docs/images/filters.png)
 
-- **Página 1** — Main dashboard (KPIs + trends + breakdowns)
-- **TT Modelos** — Tooltip page (details by model)
-
-> Tip: Add 2–4 screenshots in `docs/images/` and embed them below so the repo can be understood without opening Power BI.
 
 ## Key skills demonstrated
 
@@ -31,20 +30,6 @@ This repository contains the report file and documentation so recruiters can qui
 
 If your PBIX uses a local file path as a data source, update it in:
 **Transform data (Power Query) → Data source settings → Change source…** then **Refresh**.
-
-## Suggested screenshots to add
-
-Create these in Power BI (File → Export → or just take screenshots):
-
-- Full dashboard view (main page)
-- Tooltip in action (hover on a model)
-- Filters/slicers used in the analysis
-
-Then place them in `docs/images/` and embed them here, for example:
-
-```md
-![Dashboard](docs/images/dashboard.png)
-```
 
 ## Project narrative (fill this in)
 
